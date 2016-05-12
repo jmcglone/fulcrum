@@ -1,0 +1,19 @@
+<header>
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="{{ site.baseurl }}/" class="brand-logo">{{ site.title }}</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">For Publishers</a></li>
+          <li><a href="#">For Authors</a></li>
+          <li><a href="#">For Readers</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="{{ "about#publishers" | prepend: site.baseurl }}">For Publishers</a></li>
+          <li><a href="{{ "about#authors" | prepend: site.baseurl }}">For Authors</a></li>
+          <li><a href="{{ "about#readers" | prepend: site.baseurl }}">For Readers</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+</header>
