@@ -1,4 +1,5 @@
 @import 'brand';
+@import 'syntax-highlighting';
 
 /* Custom Stylesheet */
 /**
@@ -52,6 +53,30 @@ footer.page-footer {
 
 .footer-menu {
   margin-top: 2.4rem;
+}
+
+// blog
+.post-feature-image {
+  margin-bottom: 40px;
+}
+
+.post-date {
+  margin-top: 1rem;
+}
+
+.post-author {
+  margin-top: .5rem;
+  @include effra-light;
+  font-size: 0.9rem;
+}
+
+.post-content ul {
+  padding-left: 2.5rem;
+}
+
+.post-content ul li {
+  list-style-type: disc;
+
 }
 
 .button-collapse {
