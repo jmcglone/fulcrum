@@ -9,13 +9,13 @@
 title: fulcrum
 email: fulcrum-info@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Fulcrum is a publishing platform that helps publishers present the
+  full richness of their authors' research outputs in a durable, discoverable,
+  and flexible form.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fulcrum.org" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username:  mlibrary/fulcrum
-
+#twitter_username:
+#github_username:  mlibrary/fulcrum
+github_username: curationexperts/heliotrope
 # Build settings
 markdown: kramdown

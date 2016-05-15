@@ -1,23 +1,20 @@
-<footer class="page-footer teal">
+<footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">{{ site.title }}</h5>
-          <p class="grey-text text-lighten-4">{{ site.description }}</p>
-
-
+          <p class="grey-text text-lighten-4 about light">{{ site.description }} For more information subscribe to our newsletter or send an e-mail to <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+        <div class="col l2 s12 offset-l1 footer-menu">
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="{{ "about#publishers" | prepend: site.baseurl }}">For Publishers</a></li>
+            <li><a class="white-text" href="{{ "about#publishers" | prepend: site.baseurl }}">For Authors</a></li>
+            <li><a class="white-text" href="{{ "about#publishers" | prepend: site.baseurl }}">For Readers</a></li>
+            <li><a class="white-text" href="mailto:{{ site.email }}">Contact</a></li>
+            <li><a class="white-text" href="https://github.com/{{ site.github_username }}">Contribute</a></li>
           </ul>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+        <div class="col l2 s12 offset-l1 footer-menu">
           <ul class="social-media-list">
             {% if site.github_username %}
             <li>
@@ -34,9 +31,9 @@
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright right-align">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      &copy; 2016 University of Michigan Regents
       </div>
     </div>
   </footer>
