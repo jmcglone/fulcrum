@@ -542,8 +542,15 @@ a > g, a > path {
 p {
   line-height: 1.7rem; }
 
+.services {
+  padding-top: 5rem; }
+
+.sponsor p {
+  line-height: 2rem; }
+
 footer.page-footer {
-  background-color: #002C63; }
+  background-color: #002C63;
+  padding-top: 2rem; }
 
 .footer-menu {
   margin-top: 2.4rem; }

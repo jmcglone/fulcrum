@@ -46,9 +46,20 @@ p {
   line-height: 1.7rem;
 }
 
+// services and scholar
+.services {
+  padding-top: 5rem;
+}
+
+// sponsor
+.sponsor p {
+  line-height: 2rem;
+}
+
 // footer
 footer.page-footer {
   background-color: $brand-color;
+  padding-top: 2rem;
 }
 
 .footer-menu {
