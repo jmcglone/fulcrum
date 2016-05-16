@@ -117,14 +117,43 @@ footer.page-footer {
     top: 40%;
   }
   #index-banner .section, .parallax-container .section.sponsor {
-    top: 10%;
+    top: -5%;
   }
+
 }
 
 @media only screen and (max-width : 600px) {
+
+.nav-container, .nav-container .container, .nav-container .column {
+    height: 3.07rem;
+  }
+
+  .nav-logo svg {
+    margin-top: .2rem;
+  }
+
   #index-banner .section, .parallax-container .section.sponsor {
     top: 0;
   }
+
+ .sponsor p {
+    font-size: $delta;
+    margin-top: 0;
+  }
+
+  #index-banner h1.zeta {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (max-width : 480px) {
+
+  .nav-container, .nav-container .container, .nav-container .column {
+      height: 3.36rem;
+    }
+
 }
 
 .icon-block {
